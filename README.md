@@ -19,7 +19,6 @@ I used the preprocessed gene count matrix from the
 ## Methods
 
 - Removed genes with fewer than 10 reads summed across all samples
-  (63,677 → 22,369 genes)
 - Ran DESeq2 with the design `~ cell + dex`, so the treatment effect is estimated
   within each donor
 - Called genes significant at adjusted p < 0.05 (Benjamini–Hochberg)
